@@ -6,7 +6,7 @@
   -.editorconfig & .eslintrc.js
 #class-3
   -Commitlint
-      #Install
+      -#Install
         npm install --save-dev @commitlint/config-conventional @commitlint/cli husky
 
       #Configure husky
