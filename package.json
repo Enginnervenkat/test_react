@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:client:dev": "webpack --config=_webpack/webpack.config.js --env=dev",
+    "build:client:prod": "webpack --config=_webpack/webpack.config.js --env=prod"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,10 @@
     "babel-plugin-istanbul": "^6.0.0",
     "husky": "^4.0.1",
     "install": "^0.13.0",
-    "npm": "^6.13.4"
+    "npm": "^6.13.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
   },
   "husky": {
     "hooks": {
